@@ -3,7 +3,6 @@ import com.googlecode.lanterna.input.Key;
 import com.googlecode.lanterna.screen.Screen;
 import com.googlecode.lanterna.screen.ScreenWriter;
 import com.googlecode.lanterna.terminal.Terminal;
-
 import java.nio.charset.Charset;
 import java.util.ArrayList;
 
@@ -121,8 +120,19 @@ public class PlayingCardGame {
 
     public void drawStart() {
         writer.setBackgroundColor(Terminal.Color.BLACK);
-        writer.drawString(30, 11, "    The BLACKJACK Game  ");
-        writer.drawString(30, 12, " Press Enter to Start!! ");
+        writer.drawString(14, 11,
+                ".------..------..------..------..------..------..------..------..------.\n");
+        writer.drawString(14, 12,
+                "|B.--. ||L.--. ||A.--. ||C.--. ||K.--. ||J.--. ||A.--. ||C.--. ||K.--. |\n");
+        writer.drawString(14, 13,
+                "| :(): || :/\\: || (\\/) || :/\\: || :/\\: || :(): || (\\/) || :/\\: || :/\\: |\n");
+        writer.drawString(14, 14,
+                "| ()() || (__) || :\\/: || :\\/: || :\\/: || ()() || :\\/: || :\\/: || :\\/: |\n");
+        writer.drawString(14, 15,
+                "| '--'B|| '--'L|| '--'A|| '--'C|| '--'K|| '--'J|| '--'A|| '--'C|| '--'K|\n");
+        writer.drawString(14, 16,
+                "`------'`------'`------'`------'`------'`------'`------'`------'`------'\n");
+        writer.drawString(40, 21, "Press Enter to Start!");
         screen.refresh();
     }
 

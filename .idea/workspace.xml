@@ -2,18 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e75d3728-2533-4ad0-b245-14b830c4dcdb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_googlecode_lanterna_lanterna_2_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Keyreader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Window.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CardGame.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CardGame.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CardGame/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CardGame/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CardGame/PlayingCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CardGame/PlayingCard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CardGame/PlayingCardDeck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CardGame/PlayingCardDeck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CardGame/PlayingCardGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CardGame/PlayingCardGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlayingCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlayingCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlayingCardDeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlayingCardDeck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PlayingCardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlayingCardGame.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,7 +26,7 @@
       <file leaf-file-name="PlayingCardDeck.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PlayingCardDeck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1479">
+            <state relative-caret-position="357">
               <caret line="87" column="5" lean-forward="true" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
               <folding>
                 <element signature="e#1406#1407#0" expanded="true" />
@@ -59,8 +47,8 @@
       <file leaf-file-name="PlayingCardGame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PlayingCardGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="183" column="67" selection-start-line="183" selection-start-column="67" selection-end-line="183" selection-end-column="67" />
+            <state relative-caret-position="153">
+              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#953#954#0" expanded="true" />
@@ -93,7 +81,7 @@
       <file leaf-file-name="PlayingCard.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PlayingCard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
+            <state relative-caret-position="294">
               <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding>
                 <element signature="e#1428#1429#0" expanded="true" />
@@ -432,7 +420,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PlayingCard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
+        <state relative-caret-position="294">
           <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding>
             <element signature="e#1428#1429#0" expanded="true" />
@@ -449,16 +437,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="59" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PlayingCardDeck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
+        <state relative-caret-position="357">
           <caret line="87" column="5" lean-forward="true" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
           <folding>
             <element signature="e#1406#1407#0" expanded="true" />
@@ -475,10 +456,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="59" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/PlayingCardGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="183" column="67" selection-start-line="183" selection-start-column="67" selection-end-line="183" selection-end-column="67" />
+        <state relative-caret-position="153">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#953#954#0" expanded="true" />
