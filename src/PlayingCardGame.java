@@ -72,10 +72,7 @@ public class PlayingCardGame {
 
     public void keyDetector() throws Exception {
         drawScreen();
-        PlayingCardDeck playingCardDeck = new PlayingCardDeck();
-        playingCardDeck.createDeck();
-        playingCardDeck.shuffleDeck(playingCardDeck.getDeck1());
-        setDeck(playingCardDeck.getDeck2());
+
         while (true) {
             screen.clear();
             do {
@@ -90,6 +87,10 @@ public class PlayingCardGame {
                     pValue = 0;
                     dValue = 0;
                     cardCounter = 0;
+                    PlayingCardDeck playingCardDeck = new PlayingCardDeck();
+                    playingCardDeck.createDeck();
+                    playingCardDeck.shuffleDeck(playingCardDeck.getDeck1());
+                    setDeck(playingCardDeck.getDeck2());
                     dealOneCardPlayer(getCardCounter());
                     setCardCounter(getCardCounter() + 1);
                     dealOneCardDealer(getCardCounter());
@@ -151,24 +152,27 @@ public class PlayingCardGame {
             writer.drawString(20, 9, "BLACKJACK!");
         }
         else if (pValue < 21 && dValue <21 && pValue > dValue) {
-            writer.drawString(20, 9, "YOU WIN!!!!");
+            writer.drawString(20, 9, "You win but you are a chicken!");
         }
         else if (pValue < 21 && dValue < 21 && pValue < dValue) {
             writer.drawString(20, 9, "You lose ...");
         }
+        pValue = 0;
+        dValue = 0;
         writer.drawString(20, 10, "Final Hands:");
-        writer.drawString(20, 13, "Dealer Hand Value = " + dValue);
         writer.drawString(20, 11, "DEALER HAND");
         for (int i = 0; i < dealerHand.size(); i++) {
-            writer.drawString(20, 12, "Latest card: " + dealerHand.get(i).getName() + " of " + dealerHand.get(i).getSuit());
+            writer.drawString(20, 12, "Latest card: " + dealerHand.get(i).getName() + " of " + dealerHand.get(i).getSuit() + "               ");
             dValue += dealerHand.get(i).getValue();
         }
-        writer.drawString(20, 17, "Player Hand Value = " + pValue);
+        writer.drawString(20, 13, "Dealer Hand Value = " + dValue);
+        writer.drawString(20, 14, "---------------------------------------------");
         writer.drawString(20, 15, "PLAYER HAND");
         for (int i = 0; i < playerHand.size(); i++) {
-            writer.drawString(20, 16, "Latest card: " + playerHand.get(i).getName() + " of " + playerHand.get(i).getSuit());
+            writer.drawString(20, 16, "Latest card: " + playerHand.get(i).getName() + " of " + playerHand.get(i).getSuit() + "                 ");
             pValue += playerHand.get(i).getValue();
         }
+        writer.drawString(20, 17, "Player Hand Value = " + pValue);
         writer.drawString(20, 20, "Do you want to Play again? Press Enter!");
         screen.refresh();
     }
